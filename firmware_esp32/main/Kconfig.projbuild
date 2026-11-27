@@ -1,0 +1,18 @@
+menu "Experimento REQ/ACK"
+config SE_REQ_GPIO
+    int "GPIO de saída REQ"
+    range 0 33
+    default 25
+config SE_ACK_GPIO
+    int "GPIO de entrada ACK"
+    range 0 39
+    default 26
+config SE_UART_TX_GPIO
+    int "GPIO TX da UART0"
+    range 0 33
+    default 1
+config SE_UART_RX_GPIO
+    int "GPIO RX da UART0"
+    range 0 39
+    default 3
+endmenu

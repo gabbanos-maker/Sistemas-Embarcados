@@ -1,0 +1,5 @@
+caso,execucao,kernel,carga,periodo_us,deadline_us,ofertas,respostas,fracao_respostas,no_prazo,atrasada,nao_admitida_ocupado,sem_resposta_ao_encerrar,parcela_atrasada,parcela_nao_admitida,parcela_sem_resposta,taxa_global_falha,mediana_us,p99_us,p99_9_us,maximo_observado_us
+E1,E1-5ms-001,Convencional,Sem carga,5000,3000,120000,120000,1.0,120000,0,0,0,0.0,0.0,0.0,0.0,1235.0,1365,1485,1831
+E2,E2-5ms-001,Convencional,CPU + memória,5000,3000,120000,120000,1.0,119999,1,0,0,8.333333333333334e-06,0.0,0.0,8.333333333333334e-06,1464.0,1777,2198,3090
+E3,E3-5ms-001,PREEMPT_RT,Sem carga,5000,3000,120000,120000,1.0,120000,0,0,0,0.0,0.0,0.0,0.0,1238.0,1355,1424,1608
+E4,E4-5ms-001,PREEMPT_RT,CPU + memória,5000,3000,120000,120000,1.0,120000,0,0,0,0.0,0.0,0.0,0.0,1408.0,1612,1811,2426

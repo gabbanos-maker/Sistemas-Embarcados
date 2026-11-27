@@ -1,0 +1,94 @@
+{
+  "comando": [
+    "ferramentas/gerar_ccdf.py",
+    "--e1",
+    "dados/E1-5ms-001",
+    "--e2",
+    "dados/E2-5ms-001",
+    "--e3",
+    "dados/E3-5ms-001",
+    "--e4",
+    "dados/E4-5ms-001",
+    "--saida",
+    "graficos/relatorio-5ms-001"
+  ],
+  "matplotlib": "3.10.9",
+  "script_sha256": "133dc1cafb63490b8c87b867a11f557ca9bc4fa681be8a7219c70ad254363754",
+  "convencao": "Aula: E1 convencional sem carga; E2 convencional com carga; E3 RT sem carga; E4 RT com carga.",
+  "percentis": "Posto empírico x[ceil(p*n)-1], sem interpolação.",
+  "ccdf": "P(R>x) sobre respostas observadas da fase coleta; inclui tardias. Zero preservado no CSV e omitido no eixo logarítmico.",
+  "entradas": {
+    "E1": {
+      "pasta": "/home/ageu_banos_quavo/Downloads/laboratorio-esp32-rpi/dados/E1-5ms-001",
+      "metadados": {
+        "versao_protocolo": 2,
+        "ofertas": 120000,
+        "periodo_us": 5000,
+        "deadline_us": 3000,
+        "janela_final_us": 1000000,
+        "aquecimento_ofertas": 6000,
+        "req_gpio": 25,
+        "ack_gpio": 26,
+        "capacidade_fila": 1024
+      },
+      "sha256": {
+        "ofertas.csv": "333ccbe3e6ffb36864b63d8e4dab4314379b8845f1c91df6f6d08121a5b00b13",
+        "resumo.json": "9412ba68482e89d017879c6d1ba95b533237fa30c0d524a51be9638056950b9c"
+      }
+    },
+    "E2": {
+      "pasta": "/home/ageu_banos_quavo/Downloads/laboratorio-esp32-rpi/dados/E2-5ms-001",
+      "metadados": {
+        "versao_protocolo": 2,
+        "ofertas": 120000,
+        "periodo_us": 5000,
+        "deadline_us": 3000,
+        "janela_final_us": 1000000,
+        "aquecimento_ofertas": 6000,
+        "req_gpio": 25,
+        "ack_gpio": 26,
+        "capacidade_fila": 1024
+      },
+      "sha256": {
+        "ofertas.csv": "b78598371f44afc006a3f4390865d85e8d4188270b4602eb5d72494fd8e8202a",
+        "resumo.json": "bf76577029564c335f3005de890c8f7989a7f401db06d03ae70c9ca01f2f2029"
+      }
+    },
+    "E3": {
+      "pasta": "/home/ageu_banos_quavo/Downloads/laboratorio-esp32-rpi/dados/E3-5ms-001",
+      "metadados": {
+        "versao_protocolo": 2,
+        "ofertas": 120000,
+        "periodo_us": 5000,
+        "deadline_us": 3000,
+        "janela_final_us": 1000000,
+        "aquecimento_ofertas": 6000,
+        "req_gpio": 25,
+        "ack_gpio": 26,
+        "capacidade_fila": 1024
+      },
+      "sha256": {
+        "ofertas.csv": "a17d54fa255d55523cbfd50fb0a61a62f5044372d403c09dc6617ac519e271ed",
+        "resumo.json": "6e11a436112f914c1fef8209eaaa5ed9b0326b97968e1242b02a70d691186153"
+      }
+    },
+    "E4": {
+      "pasta": "/home/ageu_banos_quavo/Downloads/laboratorio-esp32-rpi/dados/E4-5ms-001",
+      "metadados": {
+        "versao_protocolo": 2,
+        "ofertas": 120000,
+        "periodo_us": 5000,
+        "deadline_us": 3000,
+        "janela_final_us": 1000000,
+        "aquecimento_ofertas": 6000,
+        "req_gpio": 25,
+        "ack_gpio": 26,
+        "capacidade_fila": 1024
+      },
+      "sha256": {
+        "ofertas.csv": "2ac84dcab3be3693f541e6d1a0fbf0b776ef3607ac006ed94781aaef7b064791",
+        "resumo.json": "a35617b80ca452428d8109e0758516267f1d354da0fe793697a9a905ee326dd8"
+      }
+    }
+  }
+}
